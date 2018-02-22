@@ -23,6 +23,7 @@
 		<header class="mainHeader" id="mainHeader">
 			<div class="mainHeaderWrapper">
 				<a class="mainHeaderBurgerBtn" id="mainHeaderBurgerBtn" href="#">
+					<span>MENU</span>
 					<div>
 						<span></span>
 					</div>
@@ -32,8 +33,9 @@
 		<nav class="mainHeaderOverlayMenu" id="mainHeaderOverlayMenu">
 			<a href="#" class="mainHeaderOverlayMenuClose" id="mainHeaderOverlayMenuClose"><span>Close</span><span class="mainHeaderOverlayMenuCloseCross"></span></a>
 			<ul>
-					<li><a href="#">Home</a></li>	
-					<li>
+					<li><a href="http://ibrproject.org/">Home</a></li>
+					<li><a href="http://ibrproject.org/">Executive summary</a></li>	
+					<li data-accordion>
 						<a href="#t1">Profile of urban Iranians</a>
 						<ul>
 							<li><a href="#t1-g1">Responsible business opportunities in Iran</a></li>	
@@ -42,8 +44,8 @@
 							<li><a href="#t1-g4">Considering employment</a></li>	
 						</ul>
 					</li>	
-					<li>
-						<a href="#t2">Responsible business opportunities in Iran</a>
+					<li data-accordion>
+						<a href="#t2">Opportunities for implementing reponsible business in Iran</a>
 						<ul>
 							<li><a href="#t2-g1">Priority issues</a></li>	
 							<li><a href="#t2-g2">Workplace safety</a></li>	
@@ -53,8 +55,8 @@
 							<li><a href="#t2-g6">Protecting the environment</a></li>	
 						</ul>
 					</li>	
-					<li>
-						<a href="#t3">Challenges implementing responsible business</a>
+					<li data-accordion>
+						<a href="#t3">Challenges to implementing responsible business in Iran</a>
 						<ul>
 							<li><a href="#t3-g1">Ambiguous attitudes towards transparency</a></li>	
 							<li><a href="#t3-g2">Access to employment</a></li>	
@@ -67,7 +69,7 @@
 					<li><a href="#t6">Contact</a></li>			
 			</ul>
 		</nav>
-		<main data-scrollbar>
+		<main>
 			<article class="mainContent" id="mainContent">
 				<header class="Section Section_Intro">
 					<div class="CenterWrapper CenterMobile">
@@ -75,35 +77,156 @@
 						<div class="Content">
 							<h1>Expectations&nbsp;on responsible&nbsp;business: opportunities&nbsp;and&nbsp;challenges</h1>
 							<a href="#t1" class="Button">See survey results</a>
+							<a href="#" class="Button">Executive summary</a>
 						</div>
 					</div>
 				</header>
 				<section class="Section Section_Tagline" id="t1">
 					<div class="Background" data-activephoto="ins">
-						<img src="assets/bg-h-1.jpg" alt="" data-activephoto-child />
+						<img src="assets/bg-t1.jpg" alt="" data-activephoto-child />
 					</div>
-					<h2 data-reveal>Profile of<br />urban Iranians</h2>
+					<h2><div data-reveal="Classic">Profile of<br />urban Iranians</div></h2>
 				</section>
-				<section class="Section Section_GraphA" id="t1-g1">
+				<section class="Section Section_T1G1" id="t1-g1">
 					<div class="CenterWrapper">
 						<h2 data-reveal>Sophisticated users of&nbsp;technology and social media</h2>
 						<div class="Graph">
 							<div class="El_Q"><div>How often respondents use various forms of technology and social media</div></div>
-							<div class="El_SVG Grayscale" data-svgsrc="assets/graph-t1-g1.svg"></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t1-g1.svg"></div>
 						</div>
 					</div>
 				</section>
-				<section class="Section Section_GraphB" id="t1-g2">
+				<section class="Section Section_T1G2" id="t1-g2">
 					<div class="CenterWrapper">
 						<h2 data-reveal>A large majority reports being aware of&nbsp;the&nbsp;term "responsible business"</h2>
 						<div class="Graph">
 							<div class="El_Q"><div>Whether respondents have heard the term "responsible business"</div></div>
-							<div class="El_SVG Grayscale" data-svgsrc="assets/graph-t1-g2.svg"></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t1-g2.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T1G3" id="t1-g3">
+					<div class="CenterWrapper">
+						<h2 data-reveal>What "responsible&nbsp;business" means</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>The most important qualities of a "responsible business"</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t1-g3.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T1G4" id="t1-g4">
+					<div class="CenterWrapper">
+						<h2 data-reveal>When considering employment, responsible business issues matter</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>The most important factors when people consider a job offer</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t1-g4.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_Tagline" id="t2">
+					<div class="Background" data-activephoto="ins">
+						<img src="assets/bg-t2.jpg" alt="" data-activephoto-child />
+					</div>
+					<h2><div data-reveal="Classic">Opportunities for implementing reponsible business in Iran</div></h2>
+				</section>
+				<section class="Section Section_T2G1" id="t2-g1">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Priority issues</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>What issues respondents feel companies should care about</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t2-g1.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T2G2" id="t2-g2">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Workplace safety</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>How important workplace safety should be for companies</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t2-g2.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T2G3" id="t2-g3">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Workers’ rights</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>How important workers’ rights should be for companies</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t2-g3.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T2G4" id="t2-g4">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Consumer rights</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>How important consumer rights should be for companies</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t2-g4.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T2G5" id="t2-g5">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Impact on communities</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>How important their impacts on communities should be for companies</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t2-g5.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T2G6" id="t2-g6">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Protecting the environment is a key priority for Iranians</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>How important protecting the environment should be for companies</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t2-g6.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_Tagline" id="t3">
+					<div class="Background" data-activephoto="ins">
+						<img src="assets/bg-t3.jpg" alt="" data-activephoto-child />
+					</div>
+					<h2><div data-reveal="Classic">Challenges to implementing responsible business in Iran</div></h2>
+				</section>
+				<section class="Section Section_T3G1" id="t3-g1">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Ambiguous attitudes towards transparency</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>How important should transparency requirements be for companies</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t3-g1.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T3G2" id="t3-g2">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Access to employment</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>Access to employment</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t3-g2.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T3G3" id="t3-g3">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Distrust in European companies</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>Performance on various responsible business issues</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t3-g3.svg"></div>
+						</div>
+					</div>
+				</section>
+				<section class="Section Section_T3G4" id="t3-g4">
+					<div class="CenterWrapper">
+						<h2 data-reveal>Distrust in European companies "specific responsible issues"</h2>
+						<div class="Graph">
+							<div class="El_Q"><div>Performance on various responsible business issues</div></div>
+							<div class="El_SVG" data-svgsrc="assets/graph-t3-g4.svg"></div>
 						</div>
 					</div>
 				</section>
 			</article>
-			<footer class="mainFooter">
+			<footer class="mainFooter" id="t6">
 				<h2 class="Header">Contact Us</h2>
 				<div class="Contact">
 					Please contact the IBR project directors<br />
@@ -121,7 +244,7 @@
 
 		
 		<script src="vendor/jquery-1.11.2.min.js"></script>
-		<script src="vendor/smooth-scrollbar.js"></script>
+		<script src="vendor/scrollreveal.modified.js"></script>
 		<script src="ibr.js"></script>
 
 	</body>
